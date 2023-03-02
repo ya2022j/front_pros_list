@@ -1,0 +1,67 @@
+<html>
+            <head>
+<style>
+            .chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.chat-message {
+  display: flex;
+  margin: 5px 0;
+}
+
+.received {
+  justify-content: flex-start;
+}
+
+.sent {
+  justify-content: flex-end;
+}
+
+.message-content {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 70%;
+}
+
+.sent .message-content {
+  background-color: #dcf8c6;
+}
+
+.received .message-content {
+  background-color: #f6f6f6;
+}
+
+.message-content p {
+  margin: 0;
+  font-size: 14px;
+}
+</style>
+            </head>
+
+
+            <body>
+                        <div class="chat-container">
+                                    <div class="chat-message received">
+                                      <div class="message-content">
+                                        <p>Hello! How are you doing?</p>
+                                      </div>
+                                    </div>
+                                    <div class="chat-message sent">
+                                      <div class="message-content">
+                                        <p>Hi there! I'm doing great, thanks for asking.</p>
+                                      </div>
+                                    </div>
+                                    <div class="chat-message received">
+                                      <div class="message-content">
+                                        <p>That's good to hear. How's your day been?</p>
+                                      </div>
+                                    </div>
+                                  </div>
+            </body>
+</html>
